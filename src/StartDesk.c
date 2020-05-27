@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-char StartDesk(char Desk[][9], int n)
+void StartDesk(char Desk[][9], int n)
 {
     int i, j;
     for (i = 0; i < n; i++)
@@ -57,5 +57,5 @@ char StartDesk(char Desk[][9], int n)
     Desk[8][6] = 'f';
     Desk[8][7] = 'g';
     Desk[8][8] = 'h';
-    return 0;
+  
 }

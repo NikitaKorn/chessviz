@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-char BlackP(char Desk[][9], int n, char Str[10])
+void BlackP(char Desk[][9], int n, char Str[10])
 {
     int i, t, t1, d1, d2;
     for (i = 1; i < n; i++)
@@ -22,5 +22,5 @@ char BlackP(char Desk[][9], int n, char Str[10])
         Desk[d2][t1] = 'p';
     }
 
-    return 0;
+
 }

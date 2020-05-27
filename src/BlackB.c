@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-char BlackB(char Desk[][9], int n, char Str[10])
+void BlackB(char Desk[][9], int n, char Str[10])
 {
     int i, t, t1, d1, d2;
     for (i = 1; i < n; i++)
@@ -22,5 +22,5 @@ char BlackB(char Desk[][9], int n, char Str[10])
         Desk[d2][t1] = 'b';
     }
 
-    return 0;
+  
 }

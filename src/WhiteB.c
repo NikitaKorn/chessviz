@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-char WhiteB(char Desk[][9], int n, char Str[10])
+void WhiteB(char Desk[][9], int n, char Str[10])
 {
     int i, t, t1, d1, d2;
     for (i = 1; i < n; i++)
@@ -21,5 +21,5 @@ char WhiteB(char Desk[][9], int n, char Str[10])
         Desk[d1][t] = '\0';
         Desk[d2][t1] = 'B';
     }
-   return 0;
+
 }
