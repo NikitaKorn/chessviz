@@ -1,4 +1,4 @@
-OBJ_CATALOG=build/src
+OBJ_CATALOG=build
 OBJ_CATALOG_TEST=build/test
 
 CC=gcc
