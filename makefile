@@ -12,7 +12,7 @@ VPATH=src test
 
 OBJECTS=$(addprefix $(OBJ_CATALOG)/, $(SOURCES:.c=.o))
 OBJECTS_TEST=$(addprefix $(OBJ_CATALOG_TEST)/, $(SOURCES_TEST:.c=.o))
-EXECUTABLE=chessviz-
+EXECUTABLE=chessviz
 
 all: $(SOURCES) $(EXECUTABLE)
 
