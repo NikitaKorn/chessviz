@@ -5,7 +5,7 @@ CC=gcc
 CFLAGS=-c -Wall -Werror
 LDFLAGS=-Wall -Werror
 SOURCES=main.c BlackB.c BlackK.c BlackN.c BlackP.c BlackQ.c BlackR.c Print.c StartDesk.c WhiteB.c WhiteK.c WhiteN.c WhiteP.c WhiteQ.c WhiteR.c 
-SOURCES_TEST=main-test.c test.c WhiteP.c StartDesk.c
+SOURCES_TEST=main-test.c test.c BlackB.c BlackK.c BlackN.c BlackP.c BlackQ.c BlackR.c Print.c StartDesk.c WhiteB.c WhiteK.c WhiteN.c WhiteP.c WhiteQ.c WhiteR.c  
 VPATH=src test
 
 .PHONY: all clean
