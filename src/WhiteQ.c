@@ -21,5 +21,4 @@ void WhiteQ(char Desk[][9], int n, char Str[10])
         Desk[d1][t] = '\0';
         Desk[d2][t1] = 'Q';
     }
- 
 }

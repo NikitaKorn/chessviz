@@ -57,5 +57,4 @@ void StartDesk(char Desk[][9], int n)
     Desk[8][6] = 'f';
     Desk[8][7] = 'g';
     Desk[8][8] = 'h';
-  
 }
